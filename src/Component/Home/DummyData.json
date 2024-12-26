@@ -1,0 +1,55 @@
+{
+    "repositories": [
+      {
+        "name": "design-system",
+        "visibility": "Public",
+        "language": "React",
+        "size_kb": 7320,
+        "last_updated": "1 day ago"
+      },
+      {
+        "name": "codeant-ci-app",
+        "visibility": "Private",
+        "language": "Javascript",
+        "size_kb": 5871,
+        "last_updated": "2 days ago"
+      },
+      {
+        "name": "analytics-dashboard",
+        "visibility": "Private",
+        "language": "Python",
+        "size_kb": 4521,
+        "last_updated": "5 days ago"
+      },
+      {
+        "name": "mobile-app",
+        "visibility": "Public",
+        "language": "Swift",
+        "size_kb": 3096,
+        "last_updated": "3 days ago"
+      },
+      {
+        "name": "e-commerce-platform",
+        "visibility": "Private",
+        "language": "Java",
+        "size_kb": 6210,
+        "last_updated": "6 days ago"
+      },
+      {
+        "name": "blog-website",
+        "visibility": "Public",
+        "language": "HTML/CSS",
+        "size_kb": 1876,
+        "last_updated": "4 days ago"
+      },
+      {
+        "name": "social-network",
+        "visibility": "Private",
+        "language": "PHP",
+        "size_kb": 5432,
+        "last_updated": "7 days ago"
+      }
+    ],
+    "total_repositories": 33
+  }
+  
