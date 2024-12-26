@@ -30,6 +30,7 @@ export default function Login() {
         justifyContent: "center",
         height: "100%",
         background: "#FAFAFA",
+        fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif"
       }}
     >
       <Box

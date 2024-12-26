@@ -4,14 +4,13 @@ import Home from "./Component/Home";
 
 import './App.css'
 import Login from "./Component/Login";
-// import './../src/assets/fonts.css'
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />}>
-          
+        <Route path="/" element={<Home />}> 
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>

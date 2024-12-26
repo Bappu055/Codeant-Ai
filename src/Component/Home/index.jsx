@@ -41,7 +41,8 @@ const Home = () => {
         width="15%"
         height={"100vh"}
         position={"relative"}
-        sx={{
+        
+        sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",
           "@media only screen and (max-width: 768px)": {
             display: "none",
           },
@@ -69,9 +70,10 @@ const Home = () => {
         </Box>
         <Box padding={"0 20px "}>
           <Select
+          
             value={user}
             onChange={(e) => setUser(e.target.value)}
-            sx={{ width: "180px", mt: "10px" }}
+            sx={{ width: "180px", mt: "10px" ,fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif"}}
             size="small"
           >
             <MenuItem value={"Sarthak"}>Sarthak</MenuItem>
@@ -97,7 +99,7 @@ const Home = () => {
           >
             <Avatar
               src={`${HomeIcon}`}
-              sx={{ width: "18px", height: "18px", mr: "5px" }}
+              sx={{ width: "18px", height: "18px", mr: "5px" ,fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif"}}
             />
             Repositories
           </Button>

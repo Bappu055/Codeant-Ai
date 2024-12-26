@@ -45,12 +45,12 @@ const Repositories = () => {
           }}
         >
           <Box>
-            <Typography fontSize={"24px"} fontWeight={"600"}>
+            <Typography   fontSize={"24px"} fontWeight={"600"} sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>
               Repositories
             </Typography>
           </Box>
           <Box>
-            <Typography color="#414651" fontSize={"14px"} fontWeight={"400"}>
+            <Typography color="#414651" fontSize={"14px"} fontWeight={"400"} sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>
               33 total repositories
             </Typography>
           </Box>
@@ -94,7 +94,7 @@ const Repositories = () => {
                 src={`${Refresh}`}
                 style={{ marginRight: "5px", height: "15px" }}
               />
-              <Box>Refresh All</Box>
+              <Box sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>Refresh All</Box>
             </Button>
           </Box>
           <Box>
@@ -118,7 +118,7 @@ const Repositories = () => {
                 src={`${Add}`}
                 style={{ marginRight: "2px", height: "16px" }}
               />
-              <Box>Add Repository</Box>
+              <Box sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>Add Repository</Box>
             </Button>
           </Box>
         </Box>
@@ -137,7 +137,7 @@ const Repositories = () => {
               }}
             >
               <Box>
-                <Typography fontSize={"18px"} fontWeight={"500"}>
+                <Typography fontSize={"18px"} fontWeight={"500"} sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>
                   {value.name}
                 </Typography>
               </Box>
@@ -162,13 +162,13 @@ const Repositories = () => {
               padding="10px 20px"
             >
               <Box mr="30px">
-                <Typography color="#181D27" fontSize={"14px"}>
+                <Typography color="#181D27" fontSize={"14px"} sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>
                   {value.language}{" "}
                   <img src={Dot} style={{ marginLeft: "5px" }} />
                 </Typography>
               </Box>
               <Box mr="30px">
-                <Typography color="#181D27" fontSize={"14px"}>
+                <Typography color="#181D27" fontSize={"14px"} sx={{fontFamily: "'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif",}}>
                   <img src={Database} style={{ marginRight: "5px" }} />{" "}
                   {value.size_kb + " KB"}
                 </Typography>
